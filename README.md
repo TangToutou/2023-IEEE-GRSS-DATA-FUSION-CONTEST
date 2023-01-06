@@ -142,3 +142,38 @@ DFC_Track_2
 		</tr>
 	</body>
 </table>
+
+
+### 复现Mask R-CNN语义分割的结果
+
+  <table>
+	<head>
+		<tr>
+			<th >Model</th>
+			<th >Modality</th>
+			<th >mAP</th>
+			<th >mAP_50</th>
+		</tr>
+	</head>
+	<body>
+		<tr>
+			<th > Mask R-CNN</th>
+			<th > RGB</th>
+			<th ></th>
+			<th > </th>
+		</tr>
+	</body>
+	<body>
+		<tr>
+			<th > Mask R-CNN</th>
+			<th > RGB+SAR</th>
+			<th ></th>
+			<th > </th>
+		</tr>
+	</body>
+</table>
+
+## Submission & Metrics
+The submitted results should include two parts. The first part is a building extraction result, which is the same as the previous track with only one exception that the category is not taken into consideration in this track. The second part is a pixel-wise height estimation result, which is a map with the same resolution as the input. The second part should be a tif file with the same name as the corresponding optical image. More details of the required submission format can be found in the starting_kit.zip
+
+For evaluation, the metric of the building extraction is the same as Track 1 (categories are not taken into consideration) and the metric of height estimation is threshold accuracy δ1=Nt⁄Ntotal, where Ntotal is the total number of pixels and Nt is the number of pixels that meet max(y⁄ŷ, ŷ⁄y)<1.25, where y is the reference height and ŷ is the predicted height. The final metric is the average of the two metrics, i.e., (AP50 + δ1)/2.
