@@ -82,7 +82,7 @@ DFC_Track_2
 ```
      
 ## Baseline
-  A baseline that shows how to use the DFC23 data to train models, make submissions, etc., can be found [here](https://github.com/AICyberTeam/DFC2023-baseline).  
+  **A baseline that shows how to use the DFC23 data to train models, make submissions, etc., can be found [here](https://github.com/AICyberTeam/DFC2023-baseline).**  
   We choose the classical mask rcnn algorithm as the contest baseline model. Among the input image modalities are RGB and SAR. We use [MMDetection](https://github.com/open-mmlab/mmdetection) (version 2.25.1) to test the baseline model performance.  
 ### Baseline1
   The performance report of Mask R-CNN on the validation set of track 2 (building instance segmentation) is as follows:
