@@ -100,7 +100,6 @@ DFC_Track_2
 			<th > RGB</th>
 			<th >22.8</th>
 			<th >49.1 </th>
-
 		</tr>
 	</body>
 	<body>
@@ -109,7 +108,6 @@ DFC_Track_2
 			<th > RGB+SAR</th>
 			<th >18.6</th>
 			<th >43.6 </th>
-
 		</tr>
 	</body>
 	
