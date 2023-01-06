@@ -146,6 +146,7 @@ DFC_Track_2
 
 ### 复现Mask R-CNN语义分割的结果
 
+The [performance ](https://github.com/AICyberTeam/DFC2023-baseline/tree/main/track1) report of Mask R-CNN on the validation set of track 2 (**building instance segmentation**) is as follows:
   <table>
 	<head>
 		<tr>
