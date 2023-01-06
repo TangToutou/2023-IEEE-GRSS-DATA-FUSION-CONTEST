@@ -38,7 +38,7 @@ We provide individual RGB and SAR (Synthetic Aperture Radar) remote sensing imag
   python ./make_merge.py $DATASET_ROOT
 ```
 
-  All the images are in size of 512x512. The data format follows the MS COCO format, and the annotation is in json format. The topology of the dataset directory is as follows：
+  All the images are in size of **512x512**. The data format follows the MS COCO format, and the annotation is in json format. The topology of the dataset directory is as follows：
 
 ```
 DFC_Track_2
