@@ -33,9 +33,11 @@
 [track2.zip](https://ieee-dataport.org/competitions/2023-ieee-grss-data-fusion-contest-large-scale-fine-grained-building-classification#files) 
 
 We provide individual RGB and SAR (Synthetic Aperture Radar) remote sensing images. For better use of multi-modal data, we provide a python script to generate 4-channel images concatenated in the channel dimension, in 4-channel (R,G,B,SAR) tif format. You can run the following command to generate the merge direcory:
-  
+
+```  
   python ./make_merge.py $DATASET_ROOT
-  
+```
+
   All the images are in size of 512x512. The data format follows the MS COCO format, and the annotation is in json format. The topology of the dataset directory is as follows：
 
 ```
