@@ -112,3 +112,28 @@ DFC_Track_2
 	</body>
 	
 </table>
+
+ <table>
+	<head>
+		<tr>
+			<th >Model</th>
+			<th >Modality</th>
+			<th >mAP</th>
+			<th >mAP_50</th>
+			<th >Delta_1</th>
+			<th >Delta_2</th>
+			<th >Delta_3</th>
+		</tr>
+	</head>
+	<body>
+		<tr>
+			<th >MML</th>
+			<th >RGB+SAR</th>
+			<th >15.1</th>
+			<th > 41.1</th>
+			<th > 30.1</th>
+			<th > 35.3</th>
+			<th > 39.6</th>
+		</tr>
+	</body>
+</table>
