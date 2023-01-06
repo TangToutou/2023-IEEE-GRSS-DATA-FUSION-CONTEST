@@ -113,6 +113,7 @@ DFC_Track_2
 	
 </table>
 
+  The performance report of multimodal multitask learning (MML) framework on the validation set of track 2 (instance segmentation and height prediction) is as follows:
  <table>
 	<head>
 		<tr>
