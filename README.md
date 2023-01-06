@@ -29,11 +29,6 @@
     We provide individual RGB and SAR (Synthetic Aperture Radar) remote sensing images. For better use of multi-modal data, we provide a python script to generate 4-channel images concatenated in the channel dimension, in 4-channel (R,G,B,SAR) tif format. You can run the following command to generate the merge direcory:
 
 
-python ./make_merge.py $DATASET_ROOT
-
-
-
-
     All the images are in size of 512x512. In the instance segmentation sub-task, the data format follows the MS COCO format, and the annotation uses the json format. In the height prediction sub-task, the data annotation adopts the height ground true formed by the pixel by pixel elevation value corresponding to the RGB images, and the data uses tif format.
 
 The topology of the dataset directory is as follows：
