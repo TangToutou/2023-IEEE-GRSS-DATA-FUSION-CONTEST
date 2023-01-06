@@ -25,13 +25,10 @@
   This track defines the joint task of building extraction and height estimation. Both are two very fundamental and essential tasks for building reconstruction. Same as in Track 1, the input data are multi-modal optical and SAR satellite imagery. Building extraction and height estimation from single-view satellite imagery depend on semantic features extracted from the imagery. Multi-task learning provides a potentially superior solution by reusing features and forming implicit constraints between multiple tasks in comparison to conventional separate implementations. Satellite images are provided with reference data, i.e., building annotations and normalized Digital Surface Models (nDSMs). The participants are required to reconstruct building heights and extract building footprints.
 
 ## Dataset Format
-    download [track2.zip](https://ieee-dataport.org/competitions/2023-ieee-grss-data-fusion-contest-large-scale-fine-grained-building-classification#files)
-    
+    download [track2.zip](https://ieee-dataport.org/competitions/2023-ieee-grss-data-fusion-contest-large-scale-fine-grained-building-classification#files)  
     We provide individual RGB and SAR (Synthetic Aperture Radar) remote sensing images. For better use of multi-modal data, we provide a python script to generate 4-channel images concatenated in the channel dimension, in 4-channel (R,G,B,SAR) tif format. You can run the following command to generate the merge direcory:
-    
-     python ./make_merge.py $DATASET_ROOT
-     
-     All the images are in size of 512x512. In the instance segmentation sub-task, the data format follows the MS COCO format, and the annotation uses the json format. In the height prediction sub-task, the data annotation adopts the height ground true formed by the pixel by pixel elevation value corresponding to the RGB images, and the data uses tif format.
+    python ./make_merge.py $DATASET_ROOT  
+    All the images are in size of 512x512. In the instance segmentation sub-task, the data format follows the MS COCO format, and the annotation uses the json format. In the height prediction sub-task, the data annotation adopts the height ground true formed by the pixel by pixel elevation value corresponding to the RGB images, and the data uses tif format.
 
 The topology of the dataset directory is as follows：
 
