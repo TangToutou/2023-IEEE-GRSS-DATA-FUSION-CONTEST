@@ -167,6 +167,7 @@ For evaluation, the metric of the building extraction is the same as Track 1 (ca
 - [BuildingHeightEstimation](https://github.com/shivshaktiss17/BuildingHeightEstimation)
 
 - Disentangled Latent Transformer for Interpretable Monocular Height Estimation [code](https://paperswithcode.com/paper/disentangled-latent-transformer-for)
+
 用于可解释单目高度估计的解耦潜在变压器
 （高度估计）
 网络：MHE
@@ -191,6 +192,7 @@ Our work provides novel insights for both understanding and designing MHE models
 
 
 - Height and Uprightness Invariance for 3D Prediction From a Single View [code](https://paperswithcode.com/paper/height-and-uprightness-invariance-for-3d)
+
 单视图三维预测中的高度和垂直度不变性
 (高度和垂直不变性)
 CVPR 2020  ·  Manel Baradad, Antonio Torralba ·  Edit social preview
