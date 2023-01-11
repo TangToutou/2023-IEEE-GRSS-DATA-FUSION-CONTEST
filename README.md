@@ -190,7 +190,7 @@ Our work provides novel insights for both understanding and designing MHE models
 
 
 
-- Height and Uprightness Invariance for 3D Prediction From a Single View[code](https://paperswithcode.com/paper/height-and-uprightness-invariance-for-3d)
+- Height and Uprightness Invariance for 3D Prediction From a Single View [code](https://paperswithcode.com/paper/height-and-uprightness-invariance-for-3d)
 单视图三维预测中的高度和垂直度不变性
 (高度和垂直不变性)
 CVPR 2020  ·  Manel Baradad, Antonio Torralba ·  Edit social preview
@@ -208,7 +208,7 @@ across-dataset generalization performance over existing state-of-the-art methods
 
 
 
-- CVNet: Contour Vibration Network for Building Extraction [code]https://paperswithcode.com/paper/cvnet-contour-vibration-network-for-building
+- CVNet: Contour Vibration Network for Building Extraction [code](https://paperswithcode.com/paper/cvnet-contour-vibration-network-for-building)
 
 用于建筑物提取的等高线振动网络
 （等高线建筑物提取）
@@ -231,7 +231,7 @@ The code is available at https://github.com/xzq-njust/CVNet.
 
 
 
-- Polygonal Building Segmentation by Frame Field Learning[code](https://paperswithcode.com/paper/polygonal-building-segmentation-by-frame)
+- Polygonal Building Segmentation by Frame Field Learning [code](https://paperswithcode.com/paper/polygonal-building-segmentation-by-frame)
 
 基于框架场学习的多边形建筑分割
 （矢量提取遥感图像的建物物）
