@@ -153,6 +153,7 @@ For evaluation, the metric of the building extraction is the same as Track 1 (ca
 ### object detection
 
 [deep learning object detection](https://github.com/hoya012/deep_learning_object_detection)
+[awesome-object-detection](https://github.com/amusi/awesome-object-detection)
 
  ![figure](https://github.com/ISPNU-Signal-Group/2023-IEEE-GRSS-DATA-FUSION-CONTEST/blob/main/images/od.png)
 ### height estimation
