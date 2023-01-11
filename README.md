@@ -166,4 +166,99 @@ For evaluation, the metric of the building extraction is the same as Track 1 (ca
 - [Object-Height-Estimation](https://github.com/Sanket-Mathur/Object-Height-Estimation)
 - [BuildingHeightEstimation](https://github.com/shivshaktiss17/BuildingHeightEstimation)
 
+- Disentangled Latent Transformer for Interpretable Monocular Height Estimation [code](https://paperswithcode.com/paper/disentangled-latent-transformer-for)
+用于可解释单目高度估计的解耦潜在变压器
+（高度估计）
+网络：MHE
+17 Jan 2022  ·  Zhitong Xiong, Sining Chen, Yilei Shi, Xiao Xiang Zhu ·  Edit social preview
+Monocular height estimation (MHE) from remote sensing imagery has high potential 
+in generating 3D city models efficiently for a quick response to natural disasters.
+Most existing works pursue higher performance. However, there is little research 
+exploring the interpretability of MHE networks. In this paper, 
+we target at exploring how deep neural networks predict height from a single monocular image. 
+Towards a comprehensive understanding of MHE networks, we propose to interpret them from multiple levels: 
+1) Neurons: unit-level dissection. Exploring the semantic and height selectivity of the learned internal deep representations; 
+2) Instances: object-level interpretation. Studying the effects of different semantic classes, scales, 
+and spatial contexts on height estimation; 
+3) Attribution: pixel-level analysis. 
+Understanding which input pixels are important for the height estimation. 
+Based on the multi-level interpretation, a disentangled latent Transformer network is proposed towards a more compact, 
+reliable, and explainable deep model for monocular height estimation. Furthermore, 
+a novel unsupervised semantic segmentation task based on height estimation is first introduced in this work. Additionally, 
+we also construct a new dataset for joint semantic segmentation and height estimation. 
+Our work provides novel insights for both understanding and designing MHE models.
+
+
+
+- Height and Uprightness Invariance for 3D Prediction From a Single View[code](https://paperswithcode.com/paper/height-and-uprightness-invariance-for-3d)
+单视图三维预测中的高度和垂直度不变性
+(高度和垂直不变性)
+CVPR 2020  ·  Manel Baradad, Antonio Torralba ·  Edit social preview
+Current state-of-the-art methods that predict 3D from single images ignore 
+the fact that the height of objects and their upright orientation is invariant 
+to the camera pose and intrinsic parameters. To account for this, we propose a 
+system that directly regresses 3D world coordinates for each pixel. First, 
+our system predicts the camera position with respect to the ground plane and its intrinsic parameters. 
+Followed by that, it predicts the 3D position for each pixel along the rays spanned by the camera. 
+The predicted 3D coordinates and normals are invariant to a change in the camera position or its model, 
+and we can directly impose a regression loss on these world coordinates. 
+Our approach yields competitive results for depth and camera pose estimation 
+(while not being explicitly trained to predict any of these) and improves 
+across-dataset generalization performance over existing state-of-the-art methods.
+
+
+
+- CVNet: Contour Vibration Network for Building Extraction [code]https://paperswithcode.com/paper/cvnet-contour-vibration-network-for-building
+
+用于建筑物提取的等高线振动网络
+（等高线建筑物提取）
+网络：CVNet
+
+CVPR 2022  ·  Ziqiang Xu, Chunyan Xu, Zhen Cui, Xiangwei Zheng, Jian Yang ·  Edit social preview
+The classic active contour model raises a great promising solution to polygon-based object extraction 
+with the progress of deep learning recently. Inspired by the physical vibration theory, 
+we propose a contour vibration network (CVNet) for automatic building boundary delineation. 
+Different from the previous contour models, the CVNet originally roots in the force and motion principle of contour string.
+Through the infinitesimal analysis and Newton's second law, 
+we derive the spatial-temporal contour vibration model of object shapes, 
+which is mathematically reduced to second-order differential equation. 
+To concretize the dynamic model, we transform the vibration model into the space of image features, 
+and reparameterize the equation coefficients as the learnable state from feature domain. 
+The contour changes are finally evolved in a progressive mode through the computation of contour vibration equation. 
+Both the polygon contour evolution and the model optimization are modulated to form a close-looping end-to-end network. 
+Comprehensive experiments on three datasets demonstrate the effectiveness and 
+superiority of our CVNet over other baselines and state-of-the-art methods for the polygon-based building extraction. 
+The code is available at https://github.com/xzq-njust/CVNet.
+
+
+
+- Polygonal Building Segmentation by Frame Field Learning[code](https://paperswithcode.com/paper/polygonal-building-segmentation-by-frame)
+
+基于框架场学习的多边形建筑分割
+（矢量提取遥感图像的建物物）
+30 Apr 2020  ·  Nicolas Girard, Dmitriy Smirnov, Justin Solomon, Yuliya Tarabalka ·  Edit social preview
+While state of the art image segmentation models typically output segmentations in raster format, 
+applications in geographic information systems often require vector polygons. 
+To help bridge the gap between deep network output and the format used in downstream tasks, 
+we add a frame field output to a deep segmentation model for extracting buildings from remote sensing images. 
+We train a deep neural network that aligns a predicted frame field to ground truth contours. 
+This additional objective improves segmentation quality by leveraging multi-task learning and 
+provides structural information that later facilitates polygonization; 
+we also introduce a polygonization algorithm that utilizes the frame field along with the raster segmentation. 
+Our code is available at https://github.com/Lydorn/Polygonization-by-Frame-Field-Learning.
+
+
+
+- Polygonal Building Extraction by Frame Field Learning [code](https://paperswithcode.com/paper/polygonal-building-extraction-by-frame-field)
+（矢量提取遥感图像的建物物）
+CVPR 2021  ·  Nicolas Girard, Dmitriy Smirnov, Justin Solomon, Yuliya Tarabalka ·  Edit social preview
+While state of the art image segmentation models typically output segmentations in raster format, 
+applications in geographic information systems often require vector polygons. 
+To help bridge the gap between deep network output and the format used in downstream tasks, 
+we add a frame field output to a deep segmentation model for extracting buildings from remote sensing images. 
+We train a deep neural network that aligns a predicted frame field to ground truth contours. 
+This additional objective improves segmentation quality by leveraging multi-task learning 
+and provides structural information that later facilitates polygonization; 
+we also introduce a polygonization algorithm that that utilizes the frame field along with the raster segmentation. 
+Our code is available at https://github.com/Lydorn/Polygonization-by-Frame-Field-Learning.
 
