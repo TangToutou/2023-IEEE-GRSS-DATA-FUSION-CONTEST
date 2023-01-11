@@ -213,7 +213,6 @@ across-dataset generalization performance over existing state-of-the-art methods
 用于建筑物提取的等高线振动网络
 （等高线建筑物提取）
 网络：CVNet
-
 CVPR 2022  ·  Ziqiang Xu, Chunyan Xu, Zhen Cui, Xiangwei Zheng, Jian Yang ·  Edit social preview
 The classic active contour model raises a great promising solution to polygon-based object extraction 
 with the progress of deep learning recently. Inspired by the physical vibration theory, 
@@ -250,6 +249,7 @@ Our code is available at https://github.com/Lydorn/Polygonization-by-Frame-Field
 
 
 - Polygonal Building Extraction by Frame Field Learning [code](https://paperswithcode.com/paper/polygonal-building-extraction-by-frame-field)
+
 （矢量提取遥感图像的建物物）
 CVPR 2021  ·  Nicolas Girard, Dmitriy Smirnov, Justin Solomon, Yuliya Tarabalka ·  Edit social preview
 While state of the art image segmentation models typically output segmentations in raster format, 
