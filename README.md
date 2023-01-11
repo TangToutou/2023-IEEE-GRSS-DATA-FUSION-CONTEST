@@ -87,7 +87,7 @@ DFC_Track_2
         └── P0029.tif
 ```
      
-## Baseline
+## Baseline（赛道二）
   **A baseline that shows how to use the DFC23 data to train models, make submissions, etc., can be found [here](https://github.com/AICyberTeam/DFC2023-baseline).**  
   We choose the classical **mask rcnn with multimodal multitask learning** (height prediction) framework as the contest baseline model. Among the input image modalities are RGB and SAR. We use [MMDetection](https://github.com/open-mmlab/mmdetection) (version 2.25.1) to test the baseline model performance.  
   The [performance ](https://github.com/AICyberTeam/DFC2023-baseline/tree/main/track2) report of multimodal multitask learning (MML) framework on the validation set of track 2 (**instance segmentation and height prediction**) is as follows:
@@ -116,7 +116,26 @@ DFC_Track_2
 	</body>
 </table>
 
-### 复现baseline
+### 复现baseline(赛道一)
+<table>
+	<head>
+		<tr>
+			<th >Model</th>
+			<th >Modality</th>
+			<th >mAP</th>
+			<th >mAP_50</th>
+		</tr>
+	</head>
+	<body>
+		<tr>
+			<th >MML</th>
+			<th >RGB+SAR</th>
+			<th ></th>
+			<th ></th>
+		</tr>
+	</body>
+</table>
+
 <table>
 	<head>
 		<tr>
@@ -141,7 +160,6 @@ DFC_Track_2
 		</tr>
 	</body>
 </table>
-
 
 ## Submission & Metrics
 The submitted results should include **two parts**. The first part is a **building extraction result**, which is the same as the previous track with only one exception that the category is not taken into consideration in this track. The second part is a **pixel-wise height estimation result**, which is a map with the same resolution as the input. The second part should be a tif file with the same name as the corresponding optical image. 
